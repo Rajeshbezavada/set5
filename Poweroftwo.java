@@ -1,7 +1,7 @@
 import java.util.*;
 class Poweroftwo
 {
-	public void poweroftwo50(int number)
+	public void poweroftwo(int number)
 	{
 		int num=number;
 		int d;
@@ -29,7 +29,7 @@ class Poweroftwo
 	{
 		Scanner sc=new Scanner(System.in);
 		int number=sc.nextInt();
-		Poweroftwo50 obj=new Poweroftwo50();
-		obj.poweroftwo50(number);
+		Poweroftwo obj=new Poweroftwo();
+		obj.poweroftwo(number);
 	}
 }
