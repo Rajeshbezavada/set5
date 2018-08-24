@@ -4,8 +4,8 @@ class Strcmp
 public static void main(String[] args) {
 		
 		Scanner ob=new Scanner(System.in);
-		String name1=ob.nextLine();
-		String name2=ob.nextLine();
+		String name1=ob.next();
+		String name2=ob.next();
 	if(name1.length()>name2.length())
 	{
 		System.out.println(name1);
