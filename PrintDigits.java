@@ -3,9 +3,9 @@ import java.lang.*;
 import java.io.*;
 class PrintDigits
 {
-	public static void printDigits51(int num) {
+	public static void printDigits(int num) {
     if (num >= 10) {
-        printDigits51(num / 10);
+        printDigits(num / 10);
     }
     System.out.print(num % 10);
     System.out.print("\t");
@@ -14,7 +14,7 @@ class PrintDigits
 	{
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		PrintDigits51 obj=new PrintDigits51();
-		obj.printDigits51(num);
+		PrintDigits obj=new PrintDigits();
+		obj.printDigits(num);
 	}
 }
